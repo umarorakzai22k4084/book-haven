@@ -1,0 +1,70 @@
+section:has(> #book-details) {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+#book-details {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    align-items: center;
+}
+
+#book-details h2, h4, p {
+    margin: 0;
+    padding: 0;
+}
+
+#book-details h4 {
+    margin-bottom: 10px;
+}
+
+#book-heading {
+    margin-right: 30px;
+}
+
+#book-heading > button {
+    margin-top: 15px;
+    padding: 5px 15px;
+}
+
+#book-details > div:last-child {
+    width: 50%;
+}
+
+#description {
+    word-break: normal;
+    word-wrap: break-word;
+    white-space: normal;
+}
+
+
+#review-section h2, ul{
+    margin: 0;
+    padding: 0;
+}
+
+#review-section > div {
+    display: flex;
+    margin: 15px 15px 20px 15px;
+    align-items: center;
+}
+
+#add-review {
+    padding: 7px 15px;
+    border-radius: 4px;
+    margin-left: 15px;
+}
+
+#add-review:hover {
+    cursor: pointer;
+}
+
+#review-section li {
+    list-style-type: none;
+}
+
+#review-section > p {
+    margin: 15px;
+}

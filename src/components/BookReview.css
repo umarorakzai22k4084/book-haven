@@ -1,0 +1,16 @@
+.review-info h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+.review-info {
+    background-color: whitesmoke;
+    margin: 20px 15px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    box-shadow: 3px 3px inset;
+}
+
+.review-info h3 {
+    margin-bottom: 5px;
+}

@@ -1,0 +1,65 @@
+dialog {
+    border-radius: 4px;
+    width: 20%;
+    margin-top: 30px;
+}
+
+dialog > h3 {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+dialog::backdrop {
+    opacity: 1;
+}
+
+#add-book-form {
+    margin: 0;
+    padding: 0;
+}
+
+.add-book-input{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.add-book-input:last-of-type {
+    margin-bottom: 0;
+}
+
+.add-book-input > input {
+    padding: 8px 4px;
+}
+
+.add-book-input > textarea {
+    resize: none;
+    overflow: hidden;
+    padding: 8px 4px;
+}
+
+#error {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 15px;
+    color: red;
+}
+
+#buttons {
+    display: flex;
+    justify-content: end;
+}
+
+#buttons > button {
+    padding: 4px 16px;
+}
+
+#buttons > button:hover {
+    cursor: pointer;
+}
+
+#buttons > button:first-child {
+    margin-right: 16px;
+}

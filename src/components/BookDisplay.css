@@ -1,0 +1,36 @@
+.book-card {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 25px 15px;
+    margin: 15px;
+    background-color: whitesmoke;
+    border-radius: 8px;
+    box-shadow: 5px 5px;
+    justify-content: space-between;
+}
+
+.book-card > div {
+    margin-bottom: 10px;
+}
+
+.book-card a {
+    text-decoration: none;
+    color: black;
+}
+
+.book-card p, h2 {
+    margin: 0;
+    padding: 0;
+    word-break: normal;
+    word-wrap: break-word;
+    white-space: normal;
+}
+
+.book-card > button {
+    padding: 5px;
+}
+
+.book-card > button:hover {
+    cursor: pointer;
+}
