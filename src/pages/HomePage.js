@@ -30,7 +30,7 @@ const HomePage = (props) => {
   ).id;
 
   var books = allBooks.filter((book) =>
-    book.name.toLowerCase().includes(search)
+    book.name.toLowerCase().includes(search.toLowerCase())
   );
 
   if (searchFav && props.user) {
