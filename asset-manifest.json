@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/book-haven/static/css/main.3d04d5ea.css",
+    "main.js": "/book-haven/static/js/main.cd07fa61.js",
+    "static/js/453.8297ed82.chunk.js": "/book-haven/static/js/453.8297ed82.chunk.js",
+    "index.html": "/book-haven/index.html",
+    "main.3d04d5ea.css.map": "/book-haven/static/css/main.3d04d5ea.css.map",
+    "main.cd07fa61.js.map": "/book-haven/static/js/main.cd07fa61.js.map",
+    "453.8297ed82.chunk.js.map": "/book-haven/static/js/453.8297ed82.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3d04d5ea.css",
+    "static/js/main.cd07fa61.js"
+  ]
+}
